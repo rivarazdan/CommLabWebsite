@@ -1,0 +1,113 @@
+
+
+h1 {
+	font-family: 'Amatic SC', cursive;
+  color: coral;
+  text-align: center;
+  font-size: 60px;
+}
+
+.trailer {
+  font-family: 'Amatic SC', cursive;
+  font-size: 18px;
+  text-align: center;
+  color:white;
+  width: 600px;
+  padding:5px;
+  margin-right: 10px;
+  background-color:coral;
+  position: relative;
+
+}
+
+li {
+  
+	text-decoration: none; 
+  font-family: 'Amatic SC', cursive;
+  font-color:white;
+  position: absolute;
+  top: 10px;
+ }
+
+
+ body {
+  background-color: black;
+ font-family: 'Amatic SC', cursive;
+}
+
+.box1 {
+  /*display: inline-block;*/
+  font-family: 'Amatic SC', cursive;
+  width: 600px;
+  padding:5px;
+  position: absolute;
+  top:300px;
+ 
+  
+}
+
+.review{
+  font-family: Georgia; 
+  color: white; 
+  font-size: 20px;
+   width: 100%; 
+   text-align: center;
+   position: absolute;
+   bottom:1px;
+  
+}
+.nav-holder{
+  display:flex;
+
+  justify-content:center;
+}
+
+.nav-box {
+  display:inline-block;
+  color: white;
+  width:150px;
+  margin: 40px 15px;
+  background-color: coral;
+  line-height:50px;
+  text-align: center;
+}
+
+
+.titleholder{
+  color: white;
+  max-width:150px;
+  margin: 40px 15px;
+  background-color:limegreen;
+  line-height:50px;
+  text-align: center;
+}
+
+.info-holder{
+  position: relative;
+
+  margin-right: 10px;
+}
+
+.description{
+  width:50%; 
+  font-size: 20px;
+  position:relative;
+  text-align:center;
+  display:none;
+}
+
+.img-holder{
+  position:absolute;
+  margin-top: 1px;
+  
+}
+
+.photo{
+
+  visibility: hidden;
+  
+ }
+
+ .BTS{
+  display:inline-flex;
+ }
